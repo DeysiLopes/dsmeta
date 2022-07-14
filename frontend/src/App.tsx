@@ -1,10 +1,11 @@
+import Header from "./components/Header"
 import NotificationButton from "./components/NotficationButton"
 
 function App() {
 
   return (
     <>
-    <h1>Ola bb!!</h1>
+    <Header/>
     <NotificationButton/>
     </>
   )
